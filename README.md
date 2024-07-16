@@ -5,15 +5,18 @@ The growing uncertainties of the world due to geographic tensions, weather condi
 
 
 ## File description
-1.PHNN1.py and PHNN2.py are two files dedicated to model construction, each tailored for specific operating environments.
 
-2.DataHandler.py contains code for data processing.
+The folder contains five files with the following contents:
 
-3.evaluation.py includes code utilized for evaluating model performance.
+- PHNN1.py and PHNN2.py are two files dedicated to model construction, each tailored for specific operating environments.
 
-4.Demo.py showcases how to train the model and utilize the trained model for predictions.
+- DataHandler.py contains code for data processing.
 
-5.The data file contains a sample dataset of Natural Gas prices.
+- evaluation.py includes code utilized for evaluating model performance.
+
+- Demo.py showcases how to train the model and utilize the trained model for predictions.
+
+- The data file contains a sample dataset of Natural Gas prices.
 
 ## Notes for user
 The experiments in this study were conducted using the Python programming language. The computational environment was equipped with an Intel Core i5-10400F processor, 32GB of RAM, and an NVIDIA GeForce GTX 1080 graphics card. Additionally, the environment was supplemented with Python 3.8 and TensorFlow 2.10.0, a deep learning framework, to facilitate the development and testing of PHNN models.To ensure consistency and avoid conflicts with other projects, it is recommended to set up a virtual environment. This project is developed and tested using the following technologies and tools:
