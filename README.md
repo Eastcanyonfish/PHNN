@@ -25,11 +25,11 @@ The experiments in this study were conducted using the Python programming langua
   
 If you want to use the code in the old environment, you just activate the following code:
 
-<u>from PHNN1 import PHNN_Model</u>
+<u>from PHNN1 import PHNN_Model<u>
 
 To facilitate the user to execute the code in upgraded environments, we also write a version for latest development environment that requests the small modifications in model configuration. we execute the code successfully both in system of Windows and MACOS with python 3.10 and tensorflow 2.17. if you want to use the code in the same environment, you just activate the following code:
 
-<u>from PHNN2 import PHNN_Model</u>
+<u>from PHNN2 import PHNN_Model<u>
 
 ## Citation
 If you use the code from this repository please use the citation below. Additionally please cite the original authors of the models.
