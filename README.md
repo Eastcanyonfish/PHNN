@@ -6,9 +6,13 @@ The growing uncertainties of the world due to geographic tensions, weather condi
 
 ## File description
 1.PHNN1.py and PHNN2.py are two files dedicated to model construction, each tailored for specific operating environments.
+
 2.DataHandler.py contains code for data processing.
+
 3.evaluation.py includes code utilized for evaluating model performance.
+
 4.Demo.py showcases how to train the model and utilize the trained model for predictions.
+
 5.The data file contains a sample dataset of Natural Gas prices.
 
 ## Notes for user
