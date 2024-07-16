@@ -3,6 +3,14 @@
 ## Background 
 The growing uncertainties of the world due to geographic tensions, weather conditions challenge the traditional method to achieve a reliable price prediction of energy future for both asset pricing and risk management. Following the initial success of deep learning models in energy price prediction, we attempt to establish a better architecture of neural networks to improve the prediction accuracy. We propose a novel parallel hybrid neural network (PHNN) model that utilizes independent sub-networks to effectively capture the distinct features of various sequences. Empirical results demonstrate that the PHNN model exhibits a significant performance enhancement of 16.68\%, 14.09\% and 2.34\% over the EMD-LSTM, the informer model and the single LSTM model, respectively. In particular, the PHNN outperforms the single LSTM, which is trained on the same inputs, by 2.34\% overall while by remarkable 4.11\% during event periods. This suggests that the PHNN derives notable benefits from its distinct architecture, particularly during the initial phase of extreme events characterized by significant price trend changes.
 
+
+## File description
+1.PHNN1.py and PHNN2.py are two files dedicated to model construction, each tailored for specific operating environments.
+2.DataHandler.py contains code for data processing.
+3.evaluation.py includes code utilized for evaluating model performance.
+4.Demo.py showcases how to train the model and utilize the trained model for predictions.
+5.The data file contains a sample dataset of Natural Gas prices.
+
 ## Notes for user
 The experiments in this study were conducted using the Python programming language. The computational environment was equipped with an Intel Core i5-10400F processor, 32GB of RAM, and an NVIDIA GeForce GTX 1080 graphics card. Additionally, the environment was supplemented with Python 3.8 and TensorFlow 2.10.0, a deep learning framework, to facilitate the development and testing of PHNN models.To ensure consistency and avoid conflicts with other projects, it is recommended to set up a virtual environment. This project is developed and tested using the following technologies and tools:
 - Python 3.8: The primary programming language, offering robust capabilities for data processing and scientific computing.
