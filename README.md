@@ -27,7 +27,8 @@ from PHNN2 import PHNN_Model
 
 ## Citation
 If you use the code from this repository please use the citation below. Additionally please cite the original authors of the models.
-@article{ZHU2024111972,
+
+- @article{ZHU2024111972,
 title = {Energy price prediction based on decomposed price dynamics: A parallel neural network approach},
 journal = {Applied Soft Computing},
 pages = {111972},
@@ -38,5 +39,5 @@ url = {https://www.sciencedirect.com/science/article/pii/S1568494624007464},
 author = {Min Zhu and Siyue Zheng and Yu Guo and Yuping Song}
 }
 
-M. Zhu, S. Zheng, Y. Guo et al., Energy price prediction based on decomposed price dynamics: A parallel neural network approach, Applied Soft Computing (2024),
+- M. Zhu, S. Zheng, Y. Guo et al., Energy price prediction based on decomposed price dynamics: A parallel neural network approach, Applied Soft Computing (2024),
 doi: https://doi.org/10.1016/j.asoc.2024.111972.
